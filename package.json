@@ -1,6 +1,6 @@
 {
   "name": "prompt-sync-history",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "History manager for `prompt-sync`",
   "main": "index.js",
   "scripts": {

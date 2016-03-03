@@ -1,6 +1,6 @@
 var fs = require('fs');
 var HISTORY_MAX = 100;
-var HISTORY_FILE = '.prompt_hist.txt'
+var HISTORY_FILE = '.prompt_hist.txt';
 
 module.exports = function history(file, max) {
   var HIST = [];
@@ -31,5 +31,5 @@ module.exports = function history(file, max) {
     save: function() {
       fs.writeFileSync(file, HIST.join('\n') + '\n');
     }
-  }
+  };
 }
